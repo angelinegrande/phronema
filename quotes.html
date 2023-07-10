@@ -12,6 +12,10 @@
 
     <!-- css -->
     <link rel="stylesheet" href="css/style.css">
+    <!-- quotes css -->
+    <link rel="stylesheet" href="css/quotes.css">
+    <!-- quotes js -->
+    <script src="js/quotes.js" defer></script>
     <title>Phronema</title>
 </head>
 
@@ -41,50 +45,29 @@
                 </div>
             </div>
         </nav>
-        <div class="front-page">
-            <h1 class="front-page__header">Phronema</h1>
-        </div>
     </header>
 
-    <div class="divider">
-        <img src="./img/divider-2154993.svg" alt="divider">
-    </div>
-
     <main>
-        <section class="section-one">
-            <div class="gallery">
-                <a href="ambiance.html">
-                    <img class="gallery-img" src="img/ambiance.jpg" alt="ambiance">
-                </a>
-                <p class="description">ambiance</p>
+        <div class="container">
+            <div class="advice-container">
+                <p>Advice #<span id="advice-id"></span></p>
+                <h2>
+                    &OpenCurlyDoubleQuote;
+                    <span id="advice-text"></span>
+                    &CloseCurlyDoubleQuote;
+                </h2>
+                <picture>
+                    <source media="(max-width: 500px)" srcset="./images/pattern-divider-mobile.svg" />
+                    <img src="./img/pattern-divider-desktop.svg" alt="pattern-divider-desktop" />
+                </picture>
+                <button id="generate-btn">
+                    <img src="./img/icon-dice.svg" alt="icon-dice" />
+                </button>
             </div>
-            <div class="gallery">
-                <a href="">
-                    <img class="gallery-img" src="img/meditation.jpg" alt="meditation">
-                </a>
-                <p class="description">meditation</p>
-            </div>
-            <div class="gallery">
-                <a href="game.html">
-                    <img class="gallery-img" src="img/game.jpg" alt="game">
-                </a>
-                <p class="description">game</p>
-            </div>
-            <div class="gallery">
-                <a href="quotes.html">
-                    <img class="gallery-img" src="img/quote.jpg" alt="quote">
-                </a>
-                <p class="description">quotes</p>
-            </div>
-        </section>
-
+        </div>
     </main>
 
-    <!-- <footer>
-        <article>
-            <span>Phronema &copy; | 2023</span>
-        </article>
-    </footer> -->
+
 
 </body>
 

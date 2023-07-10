@@ -1,0 +1,110 @@
+/* google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Source+Code+Pro:wght@300&display=swap");
+
+/* design */
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-weight: 800;
+}
+
+:root {
+  --primay-white-color: hsl(0, 0%, 100%);
+  --primary-light-cyan-color: hsl(193, 38%, 86%);
+  --primary-neon-green-color: hsl(150, 100%, 66%);
+
+  --natural-gray-blue-color: hsl(217, 19%, 38%);
+  --narutal-dark-grayish-blue-color: hsl(217, 19%, 24%);
+  --natural-dark-blue-color: hsl(218, 23%, 16%);
+
+  --quote-font-size: 28px;
+}
+
+main {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 5rem;
+}
+
+.container {
+  width: 500px;
+  background-color: var(--narutal-dark-grayish-blue-color);
+  border-radius: 1rem;
+  position: relative;
+}
+
+.advice-container {
+  padding: 2rem 3rem;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+p {
+  color: var(--primary-neon-green-color);
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size: 12px;
+}
+
+h2 {
+  color: var(--primary-light-cyan-color);
+  font: 28px;
+}
+
+picture img {
+  margin-bottom: 1rem;
+}
+
+button {
+  position: absolute;
+  bottom: -30px;
+  background-color: var(--primary-neon-green-color);
+  border: none;
+  padding: 1rem;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 1s;
+}
+
+button:hover {
+  background-color: var(--primary-neon-green-color);
+  background: var(--primary-neon-green-color);
+  box-shadow: 0 0 10px var(--primary-neon-green-color),
+    0 0 30px var(--primary-neon-green-color),
+    0 0 20px var(--primary-neon-green-color);
+  transition-delay: 0.3s;
+}
+
+@media screen and (max-width: 500px) {
+  .container {
+    width: 300px;
+  }
+  picture img {
+    width: 250px;
+  }
+}
+
+/* footer */
+.attribution {
+  color: var(--primary-light-cyan-color);
+  display: block;
+  font-size: 12px;
+  text-align: center;
+}
+.attribution a {
+  color: var(--primary-neon-green-color);
+}
