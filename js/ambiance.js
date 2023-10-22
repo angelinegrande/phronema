@@ -22,25 +22,82 @@ let curr_track = document.createElement("audio");
 // Define the tracks that have to be played
 let track_list = [
   {
-    name: "Night Owl",
-    artist: "Broke For Free",
-    image:
-      "https://images.pexels.com/photos/2264753/pexels-photo-2264753.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=250&w=250",
-    path: "https://files.freemusicarchive.org/storage-freemusicarchive-org/music/WFMU/Broke_For_Free/Directionless_EP/Broke_For_Free_-_01_-_Night_Owl.mp3",
+    name: "O.O",
+    artist: "NMIXX",
+    image: "../assets/img/nmixx.jpg",
+    path: "../assets/music/NMIXX 'O.O' Lyrics (엔믹스 O.O 가사) (Color Coded Lyrics).mp3",
   },
   {
-    name: "Enthusiast",
-    artist: "Tours",
-    image:
-      "https://images.pexels.com/photos/3100835/pexels-photo-3100835.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=250&w=250",
-    path: "https://files.freemusicarchive.org/storage-freemusicarchive-org/music/no_curator/Tours/Enthusiast/Tours_-_01_-_Enthusiast.mp3",
+    name: "Love Me Like This",
+    artist: "NMIXX",
+    image: "../assets/img/nmixx.jpg",
+    path: "../assets/music/NMIXX Love Me Like This Lyrics (엔믹스  Love Me Like This 가사) (Color Coded Lyrics).mp3",
   },
   {
-    name: "Shipping Lanes",
-    artist: "Chad Crouch",
-    image:
-      "https://images.pexels.com/photos/1717969/pexels-photo-1717969.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=250&w=250",
-    path: "https://files.freemusicarchive.org/storage-freemusicarchive-org/music/ccCommunity/Chad_Crouch/Arps/Chad_Crouch_-_Shipping_Lanes.mp3",
+    name: "Party O'Clock",
+    artist: "NMIXX",
+    image: "../assets/img/nmixx.jpg",
+    path: "../assets/music/NMIXX Party O'Clock Lyrics (Color Coded Lyrics).mp3",
+  },
+  {
+    name: "Super Shy",
+    artist: "New Jeans",
+    image: "../assets/img/newjeans.png",
+    path: "../assets/music/NewJeans 'Super Shy' Lyrics (뉴진스 Super Shy 가사) (Color Coded Lyrics).mp3",
+  },
+  {
+    name: "ANTIFRAGILE",
+    artist: "LE SSERAFIM",
+    image: "../assets/img/lesserafim.jpg",
+    path: "../assets/music/LE SSERAFIM 'ANTIFRAGILE' Lyrics (레세라핌 ANTIFRAGILE 가사) (Color Coded Lyrics).mp3",
+  },
+  {
+    name: "UNFORGIVEN",
+    artist: "LE SSERAFIM",
+    image: "../assets/img/lesserafim.jpg",
+    path: "../assets/music/LE SSERAFIM (르세라핌) 'UNFORGIVEN (feat. Nile Rodgers)' Lyrics (Color Coded Lyrics).mp3",
+  },
+  {
+    name: "FEARLESS",
+    artist: "LE SSERAFIM",
+    image: "../assets/img/lesserafim.jpg",
+    path: "../assets/music/LE SSERAFIM FEARLESS Lyrics (르세라핌 FEARLESS 가사) (Color Coded Lyrics).mp3",
+  },
+  {
+    name: "Boombayah",
+    artist: "BLACKPINK",
+    image: "../assets/img/blackpink.jpg",
+    path: "../assets/music/붐바야 (Boombayah).mp3",
+  },
+  {
+    name: "DDU-DU DDU-DU",
+    artist: "BLACKPINK",
+    image: "../assets/img/blackpink.jpg",
+    path: "../assets/music/뚜두뚜두 (DDU-DU DDU-DU).mp3",
+  },
+  {
+    name: "How You Like That",
+    artist: "BLACKPINK",
+    image: "../assets/img/blackpink.jpg",
+    path: "../assets/music/How You Like That.mp3",
+  },
+  {
+    name: "_WANNABE_",
+    artist: "ITZY",
+    image: "../assets/img/itzy.jpg",
+    path: "../assets/music/ITZY (있지) _WANNABE_ (Color Coded Lyrics EngRomHan가사).mp3",
+  },
+  {
+    name: "CAKE",
+    artist: "ITZY",
+    image: "../assets/img/itzy.jpg",
+    path: "../assets/music/ITZY 'CAKE' Lyrics (있지 CAKE 가사) (Color Coded Lyrics).mp3",
+  },
+  {
+    name: "_DALLA DALLA",
+    artist: "ITZY",
+    image: "../assets/img/itzy.jpg",
+    path: "../assets/music/ITZY (있지) _DALLA DALLA(달라달라)_ (Color Coded Lyrics EngRomHan가사).mp3",
   },
 ];
 

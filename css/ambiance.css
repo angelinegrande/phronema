@@ -28,6 +28,7 @@ body {
   background-image: url("../img/pexels-photo-262034.jpeg");
   background-size: cover;
   border-radius: 15%;
+  object-fit: cover;
 }
 
 .now-playing {
