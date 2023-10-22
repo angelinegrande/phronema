@@ -15,10 +15,10 @@
 
     <!-- css -->
     <link rel="stylesheet" href="css/style.css" />
-    <!-- quotes css -->
-    <link rel="stylesheet" href="css/quotes.css" />
-    <!-- quotes js -->
-    <script src="js/quotes.js" defer></script>
+
+    <!-- freedom wall css -->
+    <link rel="stylesheet" href="css/freedomwall.css" />
+
     <title>Phronema</title>
   </head>
 
@@ -56,7 +56,7 @@
                 <a class="nav-link" href="quotes.html">Quotes</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="freedomwall.html"> Freedom Wall </a>
+                <a class="nav-link" href="freedomwall.html">Freedom Wall</a>
               </li>
             </ul>
           </div>
@@ -65,29 +65,23 @@
     </header>
 
     <main>
-      <div class="container-quotes-generator">
-        <div class="advice-container">
-          <p>Advice #<span id="advice-id"></span></p>
-          <h2>
-            &OpenCurlyDoubleQuote;
-            <span id="advice-text"></span>
-            &CloseCurlyDoubleQuote;
-          </h2>
-          <picture>
-            <source
-              media="(max-width: 500px)"
-              srcset="./images/pattern-divider-mobile.svg"
-            />
-            <img
-              src="./img/pattern-divider-desktop.svg"
-              alt="pattern-divider-desktop"
-            />
-          </picture>
-          <button id="generate-btn">
-            <img src="./img/icon-dice.svg" alt="icon-dice" />
-          </button>
+      <div class="container">
+        <div class="container-fluid">
+          <div class="text-center m-2">
+            <div class="input-container">
+              <textarea
+                id="userInput"
+                placeholder="Enter your confession"
+              ></textarea>
+              <button id="addButton">Add your confession</button>
+            </div>
+            <div id="outputElement" class="card-container"></div>
+          </div>
         </div>
       </div>
     </main>
+
+    <!-- freedom wall -->
+    <script src="js/freedomwall.js" defer></script>
   </body>
 </html>

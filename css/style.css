@@ -154,20 +154,6 @@ li a {
   text-transform: capitalize;
 }
 
-/* footer */
-/* footer {
-  background: #359381;
-  padding: 2rem;
-  text-align: center;
-  color: #ffffff;
-
-  margin-top: auto;
-}
-
-footer article span {
-  font-size: 1.2em;
-} */
-
 @media (min-width: 900px) {
   /* section */
   .section-one {
