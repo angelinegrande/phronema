@@ -17,6 +17,7 @@ addButton.addEventListener("click", function () {
     // Create a card body
     var cardBody = document.createElement("div");
     cardBody.className = "card-body";
+    
 
     // Create a card text element
     var cardText = document.createElement("p");

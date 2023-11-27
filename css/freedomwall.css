@@ -1,5 +1,8 @@
 html, body {
   background-image: url("../img/totoro.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 .input-container {
   display: flex;
