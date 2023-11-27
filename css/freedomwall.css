@@ -1,6 +1,6 @@
-/* html, body {
+html, body {
   background-image: url("../img/totoro.png");
-} */
+}
 .input-container {
   display: flex;
   align-items: center;
