@@ -1,5 +1,6 @@
 html, body {
-  background: #82c7f1;
+  /* background: #82c7f1; */
+  background-image: url("../img/totoro.png");
 }
 .input-container {
   display: flex;
