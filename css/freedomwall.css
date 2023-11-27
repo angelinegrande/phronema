@@ -1,7 +1,6 @@
-html, body {
-  /* background: #82c7f1; */
+/* html, body {
   background-image: url("../img/totoro.png");
-}
+} */
 .input-container {
   display: flex;
   align-items: center;
